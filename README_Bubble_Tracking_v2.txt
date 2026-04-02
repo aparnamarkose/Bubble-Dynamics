@@ -34,11 +34,12 @@ Both frameworks perform:
 All raw experimental videos are hosted on Google Drive (due to size limits) and correspond to electrochemical bubble evolution under different potentials and electrode types.
 
 🔗 Dataset Link — Flimora Bubble Tracking Series:  
-https://drive.google.com/drive/folders/14Lx6HuAEkTNryvftkNRynNMiNJ658CQs?usp=drive_link
+Google drive link : https://drive.google.com/drive/folders/14Lx6HuAEkTNryvftkNRynNMiNJ658CQs?usp=drive_link
+Zenodo link : https://doi.org/10.5281/zenodo.19368755
 
 ---
 
-### 📁 Folder Structure
+### 📁 Folder Structure you need to create
 
 flimora/
  ├── 5v/
@@ -66,9 +67,10 @@ Each folder represents a specific voltage condition, and the contained videos co
 
 1. Clone this repository or open it in Google Colab.  
 2. Download required videos from the Drive link.  
-3. Update the file paths in the code:
+3. Update the file paths in the code for those who follows google drive:
    BASE_DIR = "/content/drive/MyDrive/ColabNotebooks/Bubbles_Program/flimora/10v"
    VIDEO_NAME = "CTNT_10v_na2so4.mp4"
+Those who are following zenodo link, have to create their own folders and subfolders in the above given structure of folders
 4. Run:
    - bright_bubble_tracker.ipynb → for shiny bubbles  
    - dark_bubble_tracker_v5.ipynb → for diffused/dark bubbles  
